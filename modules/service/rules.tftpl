@@ -1,0 +1,10 @@
+         label = join("",["Set priority for JServiceProbe events to: ",${def_prio}])
+
+         condition {
+            expression = "event.custom_details.NimProbeName matches 'JServiceProbe'"
+         }
+         actions {
+            priority = data.pagerduty_priority.default_prio.id
+            annotate = join("",["Set default priority for JServiceProbe events to: ",${def_prio}])
+         }
+

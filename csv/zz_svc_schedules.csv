@@ -1,0 +1,6 @@
+period_id,calendar_name,condition_str,last_field
+1,c_19h_20h_sa20h_su7h,"now in Mon,Tue,Wed,Thu,Fri,Sat,Sun 19:00:00 to 20:00:00 Europe/Berlin",
+2,c_19h_20h_sa20h_su7h,"now in Sat 20:00:00 to 07:00:00 Europe/Berlin",
+3,c_06h00_19h00_Mo_Fr,"now in Mon,Tue,Wed,Thu,Fri 19:00:00 to 06:00:00 Europe/Berlin",
+4,c_06h00_19h00_Mo_Fr,"now in Sat,Sun 06:00:00 to 06:00:00 Europe/Berlin",
+5,c_04h55_05h35,"now in Mon,Tue,Wed,Thu,Fri,Sat,Sun 04:55:00 to 05:35:00 Europe/Amsterdam",

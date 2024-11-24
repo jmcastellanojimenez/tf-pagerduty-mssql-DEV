@@ -1,0 +1,6 @@
+[
+%{for each_opt, opt in all_opts ~}
+{"name":"${opt.name}","value":"${opt.id}"},
+%{ endfor ~}
+]
+
